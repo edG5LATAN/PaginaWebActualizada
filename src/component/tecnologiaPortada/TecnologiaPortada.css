@@ -1,0 +1,90 @@
+.tecnologia_portada {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+.particle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+.content h1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-family: var(--font-parrafo);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  letter-spacing: 2px;
+}
+
+.content h2 {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-family: var(--font-parrafo);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 90%;
+  transform: translateX(-50%);
+}
+
+.scroll-indicator div {
+  width: 2px;
+  height: 30px;
+  background: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  
+  .content {
+    padding: 0 15px;
+  }
+}

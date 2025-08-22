@@ -1,0 +1,21 @@
+.opciones{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 15px 0;
+  button{
+    background-color: var(--color-azul);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: var(--fontsize-parrafo);
+    font-family: var(--font-parrafo);
+    text-transform: capitalize;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+}
