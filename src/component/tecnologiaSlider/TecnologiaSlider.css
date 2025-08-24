@@ -1,0 +1,43 @@
+.tecnologia_slider {
+  margin: 20px 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecnologia_slider_caja {
+  width: 80%;
+  max-width: 1000px;
+  height: 400px;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 20px;
+  position: relative;
+  
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    transition: opacity 1s ease, transform 6s ease-in-out;
+
+
+  }
+  h1{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 20%;
+    text-transform: uppercase;
+    font-family: var(--font-subtitulo);
+    text-shadow: -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000,   /* Crear contorno */
+     0 0 10px rgba(0, 0, 0, 0.8); /* Sombra difuminada */
+  color: white;
+  };
+}
+
