@@ -1,0 +1,43 @@
+.telefonia{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+  overflow: hidden;
+  hr{
+    width: 80%;
+    margin: 10px 0;
+    color: var(--color-oro);
+  }
+}
+.telefonia_contenedorfallas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  h2{
+    font-family: var(--font-subtitulo);
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+}
+.telefonia_contenedorfallas_lista{
+  display: flex;
+  width: 90%;
+  
+}
+.telefonia_telefoniaCarrucel{
+  width: 100%;
+}
+@media (max-width:480px){
+  .telefonia_contenedorfallas_lista{
+    width: 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

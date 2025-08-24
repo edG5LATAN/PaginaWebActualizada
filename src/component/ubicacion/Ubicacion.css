@@ -1,0 +1,45 @@
+.ubicacion {
+  width: 80%;
+  max-width: 1500px;
+  text-align: center;
+
+  h3 {
+    font-family: var(--font-parrafo);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: var(--font-subtitulo);
+    text-align: justify;
+    padding: 10px 15px;
+  }
+}
+
+.ubicacion_contenedor {
+  height: 500px;
+}
+
+@media (max-width:480px) {
+  .ubicacion {
+    width: 100%;
+
+    h3 {
+      font-family: var(--font-parrafo);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: var(--font-subtitulo);
+      text-align: justify;
+      padding: 10px 15px;
+    }
+
+  }
+
+  .ubicacion_contenedor {
+    width: 100%;
+    height: 350px;
+  }
+}
