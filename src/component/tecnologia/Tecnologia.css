@@ -7,9 +7,9 @@
   padding: 15px 0;
   overflow: hidden;
   hr{
-    width: 80%;
     margin: 10px 0;
-    color: var(--color-oro);
+    width: 80%;
+    border: 0.5px solid var(--color-oro);
   }
 }
 .tecnologia_paginaprecio{
