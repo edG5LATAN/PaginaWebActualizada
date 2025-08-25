@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import "./DesarrolloWeb.css";
+import ReactGA from 'react-ga4'
+
+
 
 function DesarrolloWeb() {
   const ref = useRef(null);
@@ -95,6 +98,12 @@ function DesarrolloWeb() {
         </motion.p>
         <motion.button 
         onClick={() => {
+ReactGA.event({
+      category: "Crear pagina web",
+      action: "Desean_Reparacion",
+      label: "precio de pagina", 
+    });
+
                 const mensaje = `Deseo desarrollar un proyecto web de mi empresa.`;
                 const url = `https://wa.me/93340562?text=${encodeURIComponent(
                   mensaje

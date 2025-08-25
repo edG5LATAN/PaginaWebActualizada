@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import ReactGA from "react-ga4";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
@@ -40,6 +41,11 @@ function Card({ info }) {
           </motion.button> */}
           <motion.button
             onClick={() => {
+              ReactGA.event({
+                category: "comprar_producto",
+                action: "comprar_producto",
+                label: info.modelo,
+              });
               const mensaje = `Deseo mas informacion del producto ${info.modelo}`;
               const url = `https://wa.me/93340562?text=${encodeURIComponent(
                 mensaje
@@ -52,7 +58,6 @@ function Card({ info }) {
             }}
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            
           >
             comprar
           </motion.button>
