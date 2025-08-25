@@ -21,7 +21,7 @@ function Header() {
       setContador((prevContador) =>
         prevContador >= paginas - 1 ? 0 : prevContador + 1
       );
-    }, 4000);
+    }, 6000);
 
     return () => clearTimeout(intervalo); 
   }, [contador, pausar, paginas]); 
@@ -52,7 +52,12 @@ function Header() {
           ASERCADE
         </motion.button>
       </div>
-      <div
+      <motion.div
+      key={contador}
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1.5 }}
+
         className="header_informacion"
         onMouseEnter={() => setPausar(true)}
         onMouseLeave={() => setPausar(false)}
@@ -74,7 +79,7 @@ function Header() {
           </motion.button>
         </div>
         <div className="header_informacion_imagen">
-          <motion.img
+          {/* <motion.img
             animate={{ rotate: 360 }}
             transition={{
               duration: 5,
@@ -84,14 +89,14 @@ function Header() {
             className="header_informacion_imagen_1"
             src={girar}
             alt="girar"
-          />
+          /> */}
           <img
             className="header_informacion_imagen_2"
             src={listaPromos[contador].imagen}
             alt="imagen.."
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

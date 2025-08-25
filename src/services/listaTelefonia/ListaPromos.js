@@ -23,49 +23,49 @@ import office from '../../../public/img/cabecera/office.png';
 
 export const listaTelefonosSlider = [
   {
-    id:0,
+    id: 0,
     imagen: 'https://i.pinimg.com/originals/b3/05/57/b30557bf7b593ce0e1d3f9291b4a7d18.png',
     precio: '3000Lps',
     descripcion: '128G'
   },
   {
-    id:1,
+    id: 1,
     imagen: 'https://i.pinimg.com/originals/f5/65/a3/f565a3aa917b9ec8f7e2e989f1e4b225.png',
     precio: '12800Lps',
     descripcion: '256G'
   },
   {
-    id:2,
+    id: 2,
     imagen: 'https://i.pinimg.com/originals/ed/ea/38/edea388b67227fcffb2d2e55ce5d5a17.png',
     precio: '6200Lps',
     descripcion: '128G'
   },
   {
-    id:3,
+    id: 3,
     imagen: 'https://i.pinimg.com/originals/a3/76/e1/a376e1ecc63908a580b2ac0b48f4e4e1.png',
     precio: '5200Lps',
     descripcion: '128G'
   },
   {
-    id:4,
+    id: 4,
     imagen: 'https://i.pinimg.com/originals/95/76/80/95768024ab5605218dea4350f422af86.png',
     precio: '3200Lps',
     descripcion: '64G'
   },
   {
-    id:5,
+    id: 5,
     imagen: 'https://i.pinimg.com/originals/6a/2c/3f/6a2c3f10b9390ab0ec89c76be162b77c.png',
     precio: '7800Lps',
     descripcion: '128G'
   },
   {
-    id:6,
+    id: 6,
     imagen: 'https://i.pinimg.com/originals/c1/6e/fd/c16efdfa0d18150966d039dc62db8405.png',
     precio: '6550Lps',
     descripcion: '128G'
   },
   {
-    id:7,
+    id: 7,
     imagen: 'https://i.pinimg.com/originals/e4/a6/07/e4a60704c0e44b46a9efadc91370c029.png',
     precio: '3850Lps',
     descripcion: '128G'
@@ -75,15 +75,15 @@ export const listaTelefonosSlider = [
 export const listaTelefoniaReapaciones = [
   {
     id: 0,
-    imagen: unlockApple, // Usa la imagen importada
+    imagen: unlockApple, 
     titulo: "Liberacion de Iphone",
     detalles: "Contamos con liberación de teléfono de la marca Apple por código remoto así te evitas dañar tu teléfono con software de terceros sin tener que abrir tu teléfono con la ventaja de poder usar cualquier operador de SEM.",
     boton: "cotiza la liberacion",
-    mensaje: "Tengo un Iphone que deseo liberar me pordrian dar mas informacion."
+    mensaje: "Tengo un Iphone que deseo liberar me podrian dar mas informacion."
   },
   {
     id: 1,
-    imagen: mtopcsByTmobile, // Usa la imagen importada
+    imagen: mtopcsByTmobile, 
     titulo: "Liberacion por codigo",
     detalles: "Liberación directa de cualquier marca (Motorola, Huawei, LG, SAMSUNG, HTC …) para poder usar dentro y fuera del país sin ningún problema ingresa a información para darte más detalles de las liberaciones remotas.",
     boton: "Precio de liberacion",
@@ -91,7 +91,7 @@ export const listaTelefoniaReapaciones = [
   },
   {
     id: 2,
-    imagen: marcas, // Usa la imagen importada
+    imagen: marcas, 
     titulo: "reparaciones varias",
     detalles: "Contamos con asistencia tecnica para varias marcas de telefonia con sus repuestos originales, cambios de pantalla,flex de carga, microfono auriculares cambios de tapaderas housing actualizaciones de software.",
     boton: "pregunta por costo",
@@ -102,7 +102,7 @@ export const listaTelefoniaReapaciones = [
 export const listaTelefoniaFallas = [
   {
     id: 0,
-    imagen: mojado, // Usa la imagen importada
+    imagen: mojado, 
     titulo: "telefono mojado",
     detalles: "A nuestro taller llegan muchos teléfonos con falla de humedad para ese tipo de fallas contamos con el equipo para poder hacer una limpieza interna de tarjeta donde se utiliza equipo especializado en limpieza como limpiadores sónicos. y la mayor variedad de repuestos para la reparación de cualquier falla. Contáctenos dando click al enlace para darle información y el tiempo para su reparación.",
     boton: "cotizar",
@@ -110,7 +110,7 @@ export const listaTelefoniaFallas = [
   },
   {
     id: 2,
-    imagen: calienta, // Usa la imagen importada
+    imagen: calienta, 
     titulo: "telefono calienta",
     detalles: "La falla más común en teléfonos que llegan al taller es que se calienta demasiado y no le dura la carga de batería esta falla se debe a sobre cargas eléctricas la falla se puede reparar cambiando los circuitos de amplificadores y de carga y muchas veces de red. si desea más información para poder reparar su teléfono puede ingresar al enlace para poder darle más información de los costos de reparación.",
     boton: "cotizar",
@@ -118,7 +118,7 @@ export const listaTelefoniaFallas = [
   },
   {
     id: 2,
-    imagen: quebrado, // Usa la imagen importada
+    imagen: quebrado, 
     titulo: "pantalla quebrada",
     detalles: "Teléfono con falla de pantalla y touch dañadas por golpes, Para este tipo de fallas contamos con una gran variedad de pantallas originales con certificados de compañias de telefono y genericos ayudando a la economía de su bolsillo los precios varían dependiendo de su modelo si desea cotizar y el tiempo de duración de la reparación puede darle click al enlace para información sobre los precios.",
     boton: "cotizar",
@@ -129,17 +129,17 @@ export const listaTelefoniaFallas = [
 export const listaTecnologiaSlider = [
   {
     id: 0,
-    imagen: tecMantenimiento, // Usa la imagen importada
+    imagen: tecMantenimiento, 
     titulo: "Accesorios varios modelos"
   },
   {
     id: 1,
-    imagen: tecRam, // Usa la imagen importada
+    imagen: tecRam, 
     titulo: "actualizacion de Memoria RAM"
   },
   {
     id: 2,
-    imagen: tecSD, // Usa la imagen importada
+    imagen: tecSD, 
     titulo: "actualizacion de disco duro"
   },
 ];
@@ -147,7 +147,7 @@ export const listaTecnologiaSlider = [
 export const listaTecnologiaReparacion = [
   {
     id: 0,
-    imagen: tecActualizacion, // Usa la imagen importada
+    imagen: tecActualizacion, 
     titulo: "actualizacion de pc",
     detalles: "Te ayudamos con la actualizaciones de equipo tanto para escritorio como para laptos con su sistema operativo como win 10 a win 11.. contamos con asistencia online para poder darte mejor servicion",
     boton: "cotiza tu actualizacion",
@@ -155,7 +155,7 @@ export const listaTecnologiaReparacion = [
   },
   {
     id: 1,
-    imagen: tecReparacion, // Usa la imagen importada
+    imagen: tecReparacion, 
     titulo: "reparacion de computadoras",
     detalles: "Reparacion y mantenimiento de computadoras de escritorio como portatil dandote el diagnostico y costo por reparacion como cambio de pantallas, baterias, teclado, antenas usb, antenas wifi.",
     boton: "cotiza tu reparacion",
@@ -163,7 +163,7 @@ export const listaTecnologiaReparacion = [
   },
   {
     id: 2,
-    imagen: tecAccesorios, // Usa la imagen importada
+    imagen: tecAccesorios, 
     titulo: "accesorios varios",
     detalles: "contamos con accesorios para tu computadora que te ayudaran a facilitarte tu trabajo como luces led, mouse pad, teclados tambien como antenas para wifi y antenas bluthooth para audio e imagen.",
     boton: "pregunta por accesorios",
@@ -174,21 +174,21 @@ export const listaTecnologiaReparacion = [
 export const listaPaginasPrecio = [
   {
     id: 0,
-    img: paginaStatica, // Usa la imagen importada
+    img: paginaStatica, 
     titulo: "Pagina Estaticas",
     detalles: "Desarrollamos sitios web estáticos, optimizados para velocidad, seguridad y simplicidad. Perfectos para negocios, portafolios o landing pages. Integramos imágenes, formatos 3D y diseños responsivos para una experiencia visual única. Potencia hoy tu presencia online sin complicaciones con soluciones web eficientes.",
     precio: "150"
   },
   {
     id: 2,
-    img: paginaDinamica, // Usa la imagen importada
+    img: paginaDinamica, 
     titulo: "Pagina Dinamicas",
     detalles: "Descubre el poder de las páginas web dinámicas: interactivas, personalizadas y conectadas a bases de datos. Ideales para e-commerce, blogs o sistemas con contenido en tiempo real. Tecnologías como JAVA, JavaScript y APIs garantizan funcionalidad avanzada. ¡Lleva tu proyecto al siguiente nivel con dinamismo y escalabilidad!",
     precio: "200"
   },
   {
     id: 3,
-    img: paginaVentaOnline, // Usa la imagen importada
+    img: paginaVentaOnline, 
     titulo: "Tiendas Online",
     detalles: "Impulsa tus ventas con WooCommerce: la plataforma de e-commerce más flexible para WordPress. Diseños responsive, pasarelas de pago seguras, gestión de inventario y envíos. Ideal para productos físicos o digitales. ¡Convierte tu web en una tienda de alto rendimiento lista para ofrecer productos online!",
     precio: "700"
@@ -198,7 +198,7 @@ export const listaPaginasPrecio = [
 export const listaPromos = [
   {
     "id": "0",
-    "imagen": paginasWeb, // Usa la imagen importada
+    "imagen": paginasWeb, 
     "titulo": "Creamos Paginas web",
     "subtitulo": "Staticas, Dinamicas, WooComerce",
     "mensaje": "Buen dia quisiera cotizar mi proyecto o pagina web.",
@@ -206,7 +206,7 @@ export const listaPromos = [
   },
   {
     "id": "1",
-    "imagen": telefonos, // Usa la imagen importada
+    "imagen": telefonos, 
     "titulo": "Telefonos varios",
     "subtitulo": "Varios Telefonos disponibbles",
     "mensaje": "Quiero cotizar un telefono de una marca especifica.",
@@ -214,7 +214,7 @@ export const listaPromos = [
   },
   {
     "id": "2",
-    "imagen": accesoriosTel, // Usa la imagen importada
+    "imagen": accesoriosTel, 
     "titulo": "Accesorios Telefonicos",
     "subtitulo": "variedad en accesorios",
     "mensaje": "Quisiera cotizar un accesorio para mi telefono.",
@@ -222,7 +222,7 @@ export const listaPromos = [
   },
   {
     "id": "4",
-    "imagen": accesoriosTecnologicos, // Usa la imagen importada
+    "imagen": accesoriosTecnologicos, 
     "titulo": "Accesorios Tecnologicos",
     "subtitulo": "Accesorios para computadoras",
     "mensaje": "Podrian darme informacion sobre un accesorio para mi computadora.",
@@ -230,7 +230,7 @@ export const listaPromos = [
   },
   {
     "id": "5",
-    "imagen": windows, // Usa la imagen importada
+    "imagen": windows, 
     "titulo": "Instalacion de Windows",
     "subtitulo": "Actualizacion de Software",
     "mensaje": "Quiero cotizar mi cambio de windows y la licencia.",
@@ -238,7 +238,7 @@ export const listaPromos = [
   },
   {
     "id": "6",
-    "imagen": office, // Usa la imagen importada
+    "imagen": office, 
     "titulo": "Instalacion de Office",
     "subtitulo": "Actualizacion de Office",
     "mensaje": "Precio de instalacion de Office",
