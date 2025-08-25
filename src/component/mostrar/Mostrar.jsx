@@ -144,7 +144,7 @@ function Mostrar() {
                 action: "Desean_comprar",
                 label: info.marca,
               });
-              const mensaje = `Quisera poder cotizar el ${info.marca} ${info.modelo}`;
+              const mensaje = `Quiero comprar el ${info.marca} ${info.modelo} y saber el costo con o sin envio`;
               const url = `https://wa.me/93340562?text=${encodeURIComponent(
                 mensaje
               )}`;

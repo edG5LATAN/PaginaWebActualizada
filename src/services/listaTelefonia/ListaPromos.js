@@ -79,7 +79,7 @@ export const listaTelefoniaReapaciones = [
     titulo: "Liberacion de Iphone",
     detalles: "Contamos con liberación de teléfono de la marca Apple por código remoto así te evitas dañar tu teléfono con software de terceros sin tener que abrir tu teléfono con la ventaja de poder usar cualquier operador de SEM.",
     boton: "cotiza la liberacion",
-    url: ""
+    mensaje: "Tengo un Iphone que deseo liberar me pordrian dar mas informacion."
   },
   {
     id: 1,
@@ -87,7 +87,7 @@ export const listaTelefoniaReapaciones = [
     titulo: "Liberacion por codigo",
     detalles: "Liberación directa de cualquier marca (Motorola, Huawei, LG, SAMSUNG, HTC …) para poder usar dentro y fuera del país sin ningún problema ingresa a información para darte más detalles de las liberaciones remotas.",
     boton: "Precio de liberacion",
-    url: ""
+    mensaje: "Me mandaron un telefono de USA deseo saber el precio de su liberacion."
   },
   {
     id: 2,
@@ -95,7 +95,7 @@ export const listaTelefoniaReapaciones = [
     titulo: "reparaciones varias",
     detalles: "Contamos con asistencia tecnica para varias marcas de telefonia con sus repuestos originales, cambios de pantalla,flex de carga, microfono auriculares cambios de tapaderas housing actualizaciones de software.",
     boton: "pregunta por costo",
-    url: ""
+    mensaje: "Tengo un telefono que deseo reparar me podrian ayudar con su cotizacion"
   }
 ];
 
@@ -106,7 +106,7 @@ export const listaTelefoniaFallas = [
     titulo: "telefono mojado",
     detalles: "A nuestro taller llegan muchos teléfonos con falla de humedad para ese tipo de fallas contamos con el equipo para poder hacer una limpieza interna de tarjeta donde se utiliza equipo especializado en limpieza como limpiadores sónicos. y la mayor variedad de repuestos para la reparación de cualquier falla. Contáctenos dando click al enlace para darle información y el tiempo para su reparación.",
     boton: "cotizar",
-    mensaje: "Tengo un telefono mojado o humedad cuanto seria el precio por reparacion."
+    mensaje: "Tengo un telefono mojado que cayo al agua cuanto seria el precio por reparacion."
   },
   {
     id: 2,
