@@ -17,20 +17,19 @@ function TrackPageView() {
 
   useEffect(() => {
     if (googleAnalitic) {
-      // Inicializar solo si no se ha inicializado antes
+      // Solo inicializar una vez
       if (!window.GA_INITIALIZED) {
         ReactGA.initialize(googleAnalitic);
         window.GA_INITIALIZED = true;
+        console.log('Google Analytics inicializado');
       }
       
-      // Enviar pageview con la ruta actual
+      // Trackear la página actual
       ReactGA.send({ 
         hitType: "pageview", 
         page: location.pathname + location.search,
         title: document.title
       });
-    } else {
-      console.warn("Google Analytics ID no configurado");
     }
   }, [location, googleAnalitic]);
 
