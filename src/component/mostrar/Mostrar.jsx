@@ -140,7 +140,7 @@ function Mostrar() {
           <motion.button
             onClick={() => {
               ReactGA.event({
-                category: "Comprar_telefono",
+                category: "Comprar telefono",
                 action: "Desean_comprar",
                 label: info.marca,
               });

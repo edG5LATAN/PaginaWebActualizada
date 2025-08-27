@@ -1,5 +1,6 @@
 import React from "react";
 import "./TelefoniaFallas.css";
+import ReactGA from 'react-ga4'
 import { motion } from "motion/react";
 
 function TelefoniaFallas({ info }) {
@@ -11,6 +12,11 @@ function TelefoniaFallas({ info }) {
         <p>{info.detalles}</p>
         <motion.button
           onClick={() => {
+            ReactGA.event({
+                  category: "reparacion telefonia",
+                  action: "desea_cotizar",
+                  label: info.titulo,
+                });
             const mensaje = `${info.mensaje}`;
             const url = `https://wa.me/93340562?text=${encodeURIComponent(
               mensaje

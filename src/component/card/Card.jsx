@@ -42,7 +42,7 @@ function Card({ info }) {
           <motion.button
             onClick={() => {
               ReactGA.event({
-                category: "comprar_producto",
+                category: "comprar producto",
                 action: "comprar_producto",
                 label: info.modelo,
               });

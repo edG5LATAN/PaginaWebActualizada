@@ -25,7 +25,7 @@ function TecnologiaReparacion({ info }) {
         <motion.button
           onClick={() => {
             ReactGA.event({
-              category: "desean_Reparacion",
+              category: "desean Reparacion",
               action: "Desean_Reparacion",
               label: info.titulo,
             });

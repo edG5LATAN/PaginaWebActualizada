@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import ReactGA from "react-ga4";
 import "./App.css";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
@@ -10,25 +10,34 @@ import Tecnologia from "./component/tecnologia/Tecnologia";
 import Telefonia from "./component/telefonia/Telefonia";
 import AcercaDe from "./component/asercaDe/AcercaDe";
 
-const TrackPageView = () => {
+// Componente para trackear cambios de ruta
+function TrackPageView() {
   const location = useLocation();
+  const googleAnalitic = import.meta.env.VITE_GOOGLE_ANALITIC;
 
   useEffect(() => {
-    ReactGA.send({
-      hitType: "pageview",
-      page: location.pathname + location.search,
-    });
-  }, [location]);
+    if (googleAnalitic) {
+      // Inicializar solo si no se ha inicializado antes
+      if (!window.GA_INITIALIZED) {
+        ReactGA.initialize(googleAnalitic);
+        window.GA_INITIALIZED = true;
+      }
+      
+      // Enviar pageview con la ruta actual
+      ReactGA.send({ 
+        hitType: "pageview", 
+        page: location.pathname + location.search,
+        title: document.title
+      });
+    } else {
+      console.warn("Google Analytics ID no configurado");
+    }
+  }, [location, googleAnalitic]);
 
   return null;
-};
+}
 
 function App() {
-
-  useEffect(()=>{
-   ReactGA.initialize("G-5PSBNRSCQ5")
-  },[])
-
   return (
     <>
       <BrowserRouter>

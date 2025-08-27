@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import { motion } from "framer-motion"; 
+import ReactGA from 'react-ga4'
+import { motion } from "framer-motion";
 import { listaPromos } from "../../services/listaTelefonia/ListaPromos";
 import { useNavigate } from "react-router-dom";
-import logo from "../../../public/img/logoEd.webp"
-import fondo from "../../../public/img/fondo3.png"
-import girar from "../../../public/img/redondo.png"
-
+import logo from "../../../public/img/logoEd.webp";
+import fondo from "../../../public/img/fondo3.png";
+// import girar from "../../../public/img/redondo.png";
 
 function Header() {
-  const navegar=useNavigate()
+  const navegar = useNavigate();
   const [contador, setContador] = useState(0);
   const [pausar, setPausar] = useState(false);
   const paginas = listaPromos.length;
 
   useEffect(() => {
-    if (pausar) return; 
+    if (pausar) return;
 
     const intervalo = setTimeout(() => {
       setContador((prevContador) =>
@@ -23,11 +23,11 @@ function Header() {
       );
     }, 6000);
 
-    return () => clearTimeout(intervalo); 
-  }, [contador, pausar, paginas]); 
+    return () => clearTimeout(intervalo);
+  }, [contador, pausar, paginas]);
 
   return (
-    <div className="header" style={{backgroundImage:`url(${fondo})`}}>
+    <div className="header" style={{ backgroundImage: `url(${fondo})` }}>
       <div className="header_nav">
         <motion.img
           initial={{ opacity: 0, scale: 0 }}
@@ -39,25 +39,53 @@ function Header() {
           src={logo}
           alt="logo"
         />
-        <motion.button onClick={()=>navegar("/")} whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.8 }}>
+        <motion.button
+          onClick={() => navegar("/")}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.8 }}
+        >
           INICIO
         </motion.button>
-        <motion.button onClick={()=>navegar("/telefonia")} whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.8 }}>
+        <motion.button
+          onClick={() =>{ 
+            ReactGA.event({
+                category: "entrar a telefonia",
+                action: "entraron_telefonia",
+                label: "vieron pagina de telefonia",
+              });
+            navegar("/telefonia")}}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.8 }}
+        >
           TELEFONIA
         </motion.button>
-        <motion.button onClick={()=>navegar("/tecnologia")} whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.8 }}>
+        <motion.button
+          onClick={() =>{ 
+            ReactGA.event({
+                category: "entrar a tecnologia",
+                action: "entraron_tecnologia",
+                label: "vieron pagina de tecnologia",
+              });
+            navegar("/tecnologia")
+          }}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.8 }}
+        >
           TECNOLOGIA
         </motion.button>
-        <motion.button onClick={()=>navegar("/acerca")} whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.8 }}>
+        <motion.button
+          onClick={() => navegar("/acerca")}
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.8 }}
+        >
           ASERCADE
         </motion.button>
       </div>
       <motion.div
-      key={contador}
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1.5 }}
-
+        key={contador}
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1.5 }}
         className="header_informacion"
         onMouseEnter={() => setPausar(true)}
         onMouseLeave={() => setPausar(false)}
@@ -67,14 +95,21 @@ function Header() {
           <h3>{listaPromos[contador].subtitulo}</h3>
           <p>{listaPromos[contador].especificaciones}</p>
           <motion.button
-          onClick={() => {
+            onClick={() => {
+              ReactGA.event({
+                category: "quieren informacion",
+                action: "vieron_header",
+                label: listaPromos[contador].titulo,
+              });
               const mensaje = `${listaPromos[contador].mensaje}`;
               const url = `https://wa.me/93340562?text=${encodeURIComponent(
                 mensaje
               )}`;
               window.open(url, "_blank");
             }}
-           whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.8 }}>
+            whileHover={{ scale: 1.15 }}
+            whileTap={{ scale: 0.8 }}
+          >
             Cotizar
           </motion.button>
         </div>

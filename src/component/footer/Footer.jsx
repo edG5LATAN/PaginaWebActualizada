@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Footer.css";
+import ReactGA from "react-ga4";
 import { motion } from "motion/react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
@@ -9,6 +10,11 @@ function Footer() {
   const [errorEnvio, setErrorEnvio] = useState(false);
 
   const enviarCorreo = (valores) => {
+    ReactGA.event({
+      category: "enviaron a contacto",
+      action: "contactame",
+      label: "entraron a enviar mensaje",
+    });
     const serviceID = import.meta.env.VITE_MSJ_SERVICE_ID;
     const templateID = import.meta.env.VITE_MSJ_TEMPLATE_ID;
     const userID = import.meta.env.VITE_MSJ_USER_ID;
@@ -44,6 +50,11 @@ function Footer() {
               className="bi bi-facebook footer_icono"
               viewBox="0 0 16 16"
               onClick={() => {
+                ReactGA.event({
+                  category: "entrar a faceboock",
+                  action: "redes_sociales",
+                  label: "entraron a ver pagina de feacebook",
+                });
                 const url = "https://www.facebook.com/share/1C4JCGMVFp/";
                 window.open(url, "_blank");
               }}
@@ -56,6 +67,11 @@ function Footer() {
               className="bi bi-instagram footer_icono"
               viewBox="0 0 16 16"
               onClick={() => {
+                ReactGA.event({
+                  category: "entrar a instagran",
+                  action: "redes_sociales",
+                  label: "entraron a ver pagina de instagran",
+                });
                 const url =
                   "https://www.instagram.com/tecnology.tel?igsh=NmFuYXJqcnF4ZHl6";
                 window.open(url, "_blank");
@@ -69,6 +85,11 @@ function Footer() {
               className="bi bi-linkedin footer_icono"
               viewBox="0 0 16 16"
               onClick={() => {
+                ReactGA.event({
+                  category: "entrar a linkedin",
+                  action: "redes_sociales",
+                  label: "entraron a ver pagina de linkedin",
+                });
                 const url =
                   "https://www.linkedin.com/in/telefonia-tecnologia-4889b4301/";
                 window.open(url, "_blank");
@@ -82,6 +103,11 @@ function Footer() {
               className="bi bi-whatsapp footer_icono"
               viewBox="0 0 16 16"
               onClick={() => {
+                ReactGA.event({
+                  category: "entrar a whatsapp",
+                  action: "redes_sociales",
+                  label: "entraron a ver pagina de whatsapp",
+                });
                 const mensaje = `Buen dia`;
                 const url = `https://wa.me/93340562?text=${encodeURIComponent(
                   mensaje
