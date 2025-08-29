@@ -774,5 +774,41 @@ export const listaProductos = [
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
+  },{
+    "id": "44",
+    "imagen": "https://i.pinimg.com/736x/b8/94/58/b89458f6c54317d2801ca13b3b78ac2f.jpg",
+    "marca": "AURICULAR INALAMBRICO",
+    "modelo": "M17",
+    "precio": "450",
+    "especificaciones": "Auricular M17 Mini con sonido 8D Bluetooth 5.0 cancelación de ruido",
+    "especificaciones2": "Batería de hasta 30 horas de uso. Diseño ergonómico y resistente al sudor. Perfecto para deportes y uso diario.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "45",
+    "imagen": "https://i.pinimg.com/736x/04/16/19/041619c2e518d88fd54d232039d44b9b.jpg",
+    "marca": "Audifonos Inalambricos.",
+    "modelo": "Ear Clip TW01",
+    "precio": "700",
+    "especificaciones": "Auricular Bluetooth cancelacion de ruido version V5.",
+    "especificaciones2": "Conexión estable, carga rápida USB-C. Control táctil y compatibilidad con asistentes de voz. Sonido envolvente y claro.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "46",
+    "imagen": "https://i.pinimg.com/736x/f8/27/10/f82710635665ff1172f95d95ebaf7ea9.jpg",
+    "marca": "Audifonos Inalambricos.",
+    "modelo": "M90 MAX",
+    "precio": "500",
+    "especificaciones": "Distancia de transmisión 10-15 metros caja de carga: 1200mAh.",
+    "especificaciones2": "Autonomía de 40 horas con estuche. Drivers de alta fidelidad. Emparejamiento automático y diseño plegable compacto.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
   }
 ]
+
