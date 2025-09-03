@@ -25,7 +25,7 @@ function Card({ info }) {
         // whileHover={{ scale: 1.05 }}
         // transition={{ duration: 0.3 }}
       />
-      {info.oferta == "oferta" ? <p className="card_oferta">promo</p> : <></>}
+      {info.oferta == "promocion" ? <p className="card_oferta">Offer</p> : <></>}
       <div className="card_informacion">
         <h2>{info.marca}</h2>
         <h3>{info.modelo}</h3>

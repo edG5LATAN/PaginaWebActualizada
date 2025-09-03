@@ -24,48 +24,56 @@ import office from '../../../public/img/cabecera/office.png';
 export const listaTelefonosSlider = [
   {
     id: 0,
-    imagen: 'https://i.pinimg.com/originals/b3/05/57/b30557bf7b593ce0e1d3f9291b4a7d18.png',
+    nombre: 'redmi A5',
+    imagen: 'https://i.pinimg.com/736x/70/fb/04/70fb047ce9a46adcd140d7279cf29cc7.jpg',
     precio: '3000Lps',
     descripcion: '128G'
   },
   {
     id: 1,
+    nombre: 'A55',
     imagen: 'https://i.pinimg.com/originals/f5/65/a3/f565a3aa917b9ec8f7e2e989f1e4b225.png',
     precio: '12800Lps',
     descripcion: '256G'
   },
   {
     id: 2,
+    nombre: 'A25',
     imagen: 'https://i.pinimg.com/originals/ed/ea/38/edea388b67227fcffb2d2e55ce5d5a17.png',
     precio: '6200Lps',
     descripcion: '128G'
   },
   {
     id: 3,
+    nombre: 'A15',
     imagen: 'https://i.pinimg.com/originals/a3/76/e1/a376e1ecc63908a580b2ac0b48f4e4e1.png',
     precio: '5200Lps',
     descripcion: '128G'
   },
   {
     id: 4,
+    nombre: 'A05',
     imagen: 'https://i.pinimg.com/originals/95/76/80/95768024ab5605218dea4350f422af86.png',
-    precio: '3200Lps',
-    descripcion: '64G'
+    precio: '3800Lps',
+    descripcion: '128G'
   },
   {
     id: 5,
+    nombre: 'A35',
     imagen: 'https://i.pinimg.com/originals/6a/2c/3f/6a2c3f10b9390ab0ec89c76be162b77c.png',
     precio: '7800Lps',
     descripcion: '128G'
   },
   {
     id: 6,
+    nombre: 'A16',
     imagen: 'https://i.pinimg.com/originals/c1/6e/fd/c16efdfa0d18150966d039dc62db8405.png',
-    precio: '6550Lps',
+    precio: '4900Lps',
     descripcion: '128G'
   },
   {
     id: 7,
+    nombre: 'A06',
     imagen: 'https://i.pinimg.com/originals/e4/a6/07/e4a60704c0e44b46a9efadc91370c029.png',
     precio: '3850Lps',
     descripcion: '128G'
@@ -75,7 +83,7 @@ export const listaTelefonosSlider = [
 export const listaTelefoniaReapaciones = [
   {
     id: 0,
-    imagen: unlockApple, 
+    imagen: unlockApple,
     titulo: "Liberacion de Iphone",
     detalles: "Contamos con liberación de teléfono de la marca Apple por código remoto así te evitas dañar tu teléfono con software de terceros sin tener que abrir tu teléfono con la ventaja de poder usar cualquier operador de SEM.",
     boton: "cotiza la liberacion",
@@ -83,7 +91,7 @@ export const listaTelefoniaReapaciones = [
   },
   {
     id: 1,
-    imagen: mtopcsByTmobile, 
+    imagen: mtopcsByTmobile,
     titulo: "Liberacion por codigo",
     detalles: "Liberación directa de cualquier marca (Motorola, Huawei, LG, SAMSUNG, HTC …) para poder usar dentro y fuera del país sin ningún problema ingresa a información para darte más detalles de las liberaciones remotas.",
     boton: "Precio de liberacion",
@@ -91,7 +99,7 @@ export const listaTelefoniaReapaciones = [
   },
   {
     id: 2,
-    imagen: marcas, 
+    imagen: marcas,
     titulo: "reparaciones varias",
     detalles: "Contamos con asistencia tecnica para varias marcas de telefonia con sus repuestos originales, cambios de pantalla,flex de carga, microfono auriculares cambios de tapaderas housing actualizaciones de software.",
     boton: "pregunta por costo",
@@ -102,7 +110,7 @@ export const listaTelefoniaReapaciones = [
 export const listaTelefoniaFallas = [
   {
     id: 0,
-    imagen: mojado, 
+    imagen: mojado,
     titulo: "telefono mojado",
     detalles: "A nuestro taller llegan muchos teléfonos con falla de humedad para ese tipo de fallas contamos con el equipo para poder hacer una limpieza interna de tarjeta donde se utiliza equipo especializado en limpieza como limpiadores sónicos. y la mayor variedad de repuestos para la reparación de cualquier falla. Contáctenos dando click al enlace para darle información y el tiempo para su reparación.",
     boton: "cotizar",
@@ -110,7 +118,7 @@ export const listaTelefoniaFallas = [
   },
   {
     id: 2,
-    imagen: calienta, 
+    imagen: calienta,
     titulo: "telefono calienta",
     detalles: "La falla más común en teléfonos que llegan al taller es que se calienta demasiado y no le dura la carga de batería esta falla se debe a sobre cargas eléctricas la falla se puede reparar cambiando los circuitos de amplificadores y de carga y muchas veces de red. si desea más información para poder reparar su teléfono puede ingresar al enlace para poder darle más información de los costos de reparación.",
     boton: "cotizar",
@@ -118,7 +126,7 @@ export const listaTelefoniaFallas = [
   },
   {
     id: 2,
-    imagen: quebrado, 
+    imagen: quebrado,
     titulo: "pantalla quebrada",
     detalles: "Teléfono con falla de pantalla y touch dañadas por golpes, Para este tipo de fallas contamos con una gran variedad de pantallas originales con certificados de compañias de telefono y genericos ayudando a la economía de su bolsillo los precios varían dependiendo de su modelo si desea cotizar y el tiempo de duración de la reparación puede darle click al enlace para información sobre los precios.",
     boton: "cotizar",
@@ -129,17 +137,17 @@ export const listaTelefoniaFallas = [
 export const listaTecnologiaSlider = [
   {
     id: 0,
-    imagen: tecMantenimiento, 
+    imagen: tecMantenimiento,
     titulo: "Accesorios varios modelos"
   },
   {
     id: 1,
-    imagen: tecRam, 
+    imagen: tecRam,
     titulo: "actualizacion de Memoria RAM"
   },
   {
     id: 2,
-    imagen: tecSD, 
+    imagen: tecSD,
     titulo: "actualizacion de disco duro"
   },
 ];
@@ -147,7 +155,7 @@ export const listaTecnologiaSlider = [
 export const listaTecnologiaReparacion = [
   {
     id: 0,
-    imagen: tecActualizacion, 
+    imagen: tecActualizacion,
     titulo: "actualizacion de pc",
     detalles: "Te ayudamos con la actualizaciones de equipo tanto para escritorio como para laptos con su sistema operativo como win 10 a win 11.. contamos con asistencia online para poder darte mejor servicion",
     boton: "cotiza tu actualizacion",
@@ -155,7 +163,7 @@ export const listaTecnologiaReparacion = [
   },
   {
     id: 1,
-    imagen: tecReparacion, 
+    imagen: tecReparacion,
     titulo: "reparacion de computadoras",
     detalles: "Reparacion y mantenimiento de computadoras de escritorio como portatil dandote el diagnostico y costo por reparacion como cambio de pantallas, baterias, teclado, antenas usb, antenas wifi.",
     boton: "cotiza tu reparacion",
@@ -163,7 +171,7 @@ export const listaTecnologiaReparacion = [
   },
   {
     id: 2,
-    imagen: tecAccesorios, 
+    imagen: tecAccesorios,
     titulo: "accesorios varios",
     detalles: "contamos con accesorios para tu computadora que te ayudaran a facilitarte tu trabajo como luces led, mouse pad, teclados tambien como antenas para wifi y antenas bluthooth para audio e imagen.",
     boton: "pregunta por accesorios",
@@ -174,21 +182,21 @@ export const listaTecnologiaReparacion = [
 export const listaPaginasPrecio = [
   {
     id: 0,
-    img: paginaStatica, 
+    img: paginaStatica,
     titulo: "Pagina Estaticas",
     detalles: "Desarrollamos sitios web estáticos, optimizados para velocidad, seguridad y simplicidad. Perfectos para negocios, portafolios o landing pages. Integramos imágenes, formatos 3D y diseños responsivos para una experiencia visual única. Potencia hoy tu presencia online sin complicaciones con soluciones web eficientes.",
     precio: "150"
   },
   {
     id: 2,
-    img: paginaDinamica, 
+    img: paginaDinamica,
     titulo: "Pagina Dinamicas",
     detalles: "Descubre el poder de las páginas web dinámicas: interactivas, personalizadas y conectadas a bases de datos. Ideales para e-commerce, blogs o sistemas con contenido en tiempo real. Tecnologías como JAVA, JavaScript y APIs garantizan funcionalidad avanzada. ¡Lleva tu proyecto al siguiente nivel con dinamismo y escalabilidad!",
     precio: "200"
   },
   {
     id: 3,
-    img: paginaVentaOnline, 
+    img: paginaVentaOnline,
     titulo: "Tiendas Online",
     detalles: "Impulsa tus ventas con WooCommerce: la plataforma de e-commerce más flexible para WordPress. Diseños responsive, pasarelas de pago seguras, gestión de inventario y envíos. Ideal para productos físicos o digitales. ¡Convierte tu web en una tienda de alto rendimiento lista para ofrecer productos online!",
     precio: "700"
@@ -198,7 +206,7 @@ export const listaPaginasPrecio = [
 export const listaPromos = [
   {
     "id": "0",
-    "imagen": paginasWeb, 
+    "imagen": paginasWeb,
     "titulo": "Creamos Paginas web",
     "subtitulo": "Staticas, Dinamicas, WooComerce",
     "mensaje": "Buen dia quisiera cotizar mi proyecto o pagina web.",
@@ -206,7 +214,7 @@ export const listaPromos = [
   },
   {
     "id": "1",
-    "imagen": telefonos, 
+    "imagen": telefonos,
     "titulo": "Telefonos varios",
     "subtitulo": "Varios Telefonos disponibbles",
     "mensaje": "Quiero cotizar un telefono de una marca especifica.",
@@ -214,7 +222,7 @@ export const listaPromos = [
   },
   {
     "id": "2",
-    "imagen": accesoriosTel, 
+    "imagen": accesoriosTel,
     "titulo": "Accesorios Telefonicos",
     "subtitulo": "variedad en accesorios",
     "mensaje": "Quisiera cotizar un accesorio para mi telefono.",
@@ -222,7 +230,7 @@ export const listaPromos = [
   },
   {
     "id": "4",
-    "imagen": accesoriosTecnologicos, 
+    "imagen": accesoriosTecnologicos,
     "titulo": "Accesorios Tecnologicos",
     "subtitulo": "Accesorios para computadoras",
     "mensaje": "Podrian darme informacion sobre un accesorio para mi computadora.",
@@ -230,7 +238,7 @@ export const listaPromos = [
   },
   {
     "id": "5",
-    "imagen": windows, 
+    "imagen": windows,
     "titulo": "Instalacion de Windows",
     "subtitulo": "Actualizacion de Software",
     "mensaje": "Quiero cotizar mi cambio de windows y la licencia.",
@@ -238,7 +246,7 @@ export const listaPromos = [
   },
   {
     "id": "6",
-    "imagen": office, 
+    "imagen": office,
     "titulo": "Instalacion de Office",
     "subtitulo": "Actualizacion de Office",
     "mensaje": "Precio de instalacion de Office",
@@ -288,7 +296,7 @@ export const listaProductos = [
     "imagen": "https://i.pinimg.com/736x/16/1a/30/161a30a6b0224763424fa33c086fccce.jpg",
     "marca": "REALME",
     "modelo": "14C",
-    "precio": "4100",
+    "precio": "3400",
     "especificaciones": "Telefono realme 14c de 256G y 16Ram",
     "especificaciones2": "El Realme 14C ofrece equilibrio perfecto: pantalla HD+ de 6.5\", batería de 5000 mAh y triple cámara trasera. Rendimiento ágil con procesador MediaTek y Android actualizado. ¡Diseño moderno y autonomía excepcional a precio accesible!",
     "estado": "NUEVO",
@@ -312,7 +320,7 @@ export const listaProductos = [
     "imagen": "https://i.pinimg.com/originals/c1/6e/fd/c16efdfa0d18150966d039dc62db8405.png",
     "marca": "SAMSUNG",
     "modelo": "A16",
-    "precio": "6550",
+    "precio": "4900",
     "especificaciones": "Telefono samsung de 128G y 6Ram",
     "especificaciones2": "Samsung Galaxy A16: Potencia y elegancia en un dispositivo accesible. Pantalla Super AMOLED de 6.4\", cuádruple cámara de 50MP, batería de 5000mAh y rendimiento optimizado. Experimenta la tecnología Samsung a un precio irresistible.",
     "estado": "NUEVO",
@@ -336,7 +344,7 @@ export const listaProductos = [
     "imagen": "https://i.pinimg.com/originals/95/76/80/95768024ab5605218dea4350f422af86.png",
     "marca": "SAMSUNG",
     "modelo": "A05",
-    "precio": "3200",
+    "precio": "3800",
     "especificaciones": "Telefono samsung de 64G y 4 Ram",
     "especificaciones2": "Samsung Galaxy A05: Esencialmente inteligente con pantalla HD+ de 6.7\", doble cámara de 50MP y batería de 5000mAh. Rendimiento confiable para uso diario y diseño ergonómico. La combinación perfecta de funcionalidad y economía.",
     "estado": "NUEVO",
@@ -360,7 +368,7 @@ export const listaProductos = [
     "imagen": "https://i.pinimg.com/originals/f5/65/a3/f565a3aa917b9ec8f7e2e989f1e4b225.png",
     "marca": "SAMSUNG",
     "modelo": "A55 5G",
-    "precio": "8250",
+    "precio": "12800",
     "especificaciones": "Telefono samsung de 128G y 6 Ram",
     "especificaciones2": "Samsung Galaxy A55 5G: El equilibrio perfecto entre potencia y diseño. Pantalla FHD+ de 6.6\", cámara cuádruple de 50MP, batería de 5000mAh y conectividad 5G. Rendimiento excepcional con seguridad Knox y actualizaciones garantizadas.",
     "estado": "NUEVO",
@@ -774,14 +782,15 @@ export const listaProductos = [
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
-  },{
+  },
+   {
     "id": "44",
     "imagen": "https://i.pinimg.com/736x/b8/94/58/b89458f6c54317d2801ca13b3b78ac2f.jpg",
     "marca": "AURICULAR INALAMBRICO",
     "modelo": "M17",
     "precio": "450",
     "especificaciones": "Auricular M17 Mini con sonido 8D Bluetooth 5.0 cancelación de ruido",
-    "especificaciones2": "Batería de hasta 30 horas de uso. Diseño ergonómico y resistente al sudor. Perfecto para deportes y uso diario.",
+    "especificaciones2": "Auriculares inalámbricos M17. Disfruta de un audio envolvente 8D y cancelación de ruido para una experiencia inmersiva. Bluetooth 5.0 para una conexión estable y sin cables.",
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
@@ -793,7 +802,7 @@ export const listaProductos = [
     "modelo": "Ear Clip TW01",
     "precio": "700",
     "especificaciones": "Auricular Bluetooth cancelacion de ruido version V5.",
-    "especificaciones2": "Conexión estable, carga rápida USB-C. Control táctil y compatibilidad con asistentes de voz. Sonido envolvente y claro.",
+    "especificaciones2": "Audífonos Ear Clip TW01 con diseño de gancho para un ajuste seguro. Cancelación de ruido activa para llamadas y música claras. Bluetooth 5.0 para máxima eficiencia y duración de batería.",
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
@@ -805,10 +814,57 @@ export const listaProductos = [
     "modelo": "M90 MAX",
     "precio": "500",
     "especificaciones": "Distancia de transmisión 10-15 metros caja de carga: 1200mAh.",
-    "especificaciones2": "Autonomía de 40 horas con estuche. Drivers de alta fidelidad. Emparejamiento automático y diseño plegable compacto.",
+    "especificaciones2": "Los M90 MAX ofrecen libertad con 15m de alcance. Su estuche de carga con 1200mAh proporciona múltiples recargas extra. Sonido de alta fidelidad y comodidad para uso prolongado.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "47",
+    "imagen": "https://i.pinimg.com/736x/c2/b9/0b/c2b90bc5c90d967f9ec02ce7e1c9147e.jpg",
+    "marca": "Xiaomi redmi.",
+    "modelo": "A5",
+    "precio": "3000",
+    "especificaciones": "Telefono xiaomi redmi A5 con 4G de memoria ram y 128G de Rom.",
+    "especificaciones2": "Xiaomi Redmi A5: Equilibrio perfecto. Con 4GB de RAM y 128GB de almacenamiento, maneja multitarea y tus archivos. Experimenta la calidad y confiabilidad de Xiaomi en un dispositivo accesible.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "48",
+    "imagen": "https://i.pinimg.com/736x/86/1f/44/861f440591101b20cb28da935d2ddc18.jpg",
+    "marca": "SAMSUNG.",
+    "modelo": "A56",
+    "precio": "13600",
+    "especificaciones": "Telefono SAMSUNG serie A con 12G de memoria ram y 256G de Rom.",
+    "especificaciones2": "Samsung Galaxy A56: Potencia y capacidad. Con 12GB de RAM para un rendimiento fluido y 256GB de almacenamiento para todo tu contenido. Diseño elegante y pantalla vibrante de la serie A.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "49",
+    "imagen": "https://i.pinimg.com/736x/39/32/91/3932913f700136e0cd09d83cb4a16cfc.jpg",
+    "marca": "SAMSUNG.",
+    "modelo": "A36",
+    "precio": "10800",
+    "especificaciones": "Telefono SAMSUNG serie A con 8G de memoria ram y 256G de Rom.",
+    "especificaciones2": "Samsung Galaxy A36: Rendimiento confiable con 8GB de RAM y amplio almacenamiento de 256GB. Ideal para el día a día, disfruta de una experiencia móvil completa y eficiente con la calidad Samsung.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+  },
+  {
+    "id": "50",
+    "imagen": "https://i.pinimg.com/736x/d6/86/fc/d686fc13999a8aa07ec9350c2956a405.jpg",
+    "marca": "SAMSUNG.",
+    "modelo": "A26",
+    "precio": "7300",
+    "especificaciones": "Telefono SAMSUNG serie A con 8G de memoria ram y 128G de Rom.",
+    "especificaciones2": "Samsung Galaxy A26: Un gran equilibrio. Con 8GB de RAM para un buen rendimiento y 128GB de almacenamiento. Captura momentos increíbles y disfruta de una larga duración de batería.",
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
   }
 ]
-
