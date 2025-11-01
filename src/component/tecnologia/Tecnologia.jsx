@@ -16,7 +16,7 @@ function Tecnologia() {
     <div className="tecnologia">
       <TecnologiaPortada
         titulo={"tecnologia"}
-        subtitulo={"Desarrollo web y repacion computo"}
+        subtitulo={"Desarrollo web y reparacion de computo"}
         imagen={"img/tecnologia/portada.webp"}
       />
       <br />
@@ -77,3 +77,4 @@ function Tecnologia() {
 }
 
 export default Tecnologia;
+
