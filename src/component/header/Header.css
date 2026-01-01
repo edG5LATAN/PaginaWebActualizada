@@ -6,10 +6,9 @@
   flex-direction: column;
   padding: 15px 0 10px 0;
 
-  
-    background-repeat: no-repeat;
-    background-position: initial;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .header_nav {
@@ -145,12 +144,12 @@
     padding: 0;
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
     background-size: cover;
   }
 
   .header_nav {
-    
+
     width: 99%;
     justify-content: space-evenly;
     margin: 0;
@@ -161,7 +160,10 @@
 
     img {
       width: 80px;
-    };
+    }
+
+    ;
+
     button {
       padding: 5px 4px;
       font-size: small;
@@ -225,7 +227,7 @@
       color: white; */
       /* border-radius: 10px; */
       /* font-family: var(--font-boton); */
-      font-size: small ;
+      font-size: small;
       font-weight: normal;
     }
 
