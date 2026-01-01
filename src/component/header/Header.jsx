@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { listaPromos } from "../../services/listaTelefonia/ListaPromos";
 import { useNavigate } from "react-router-dom";
 import logo from "../../../public/img/logoEd.webp";
-import fondo from "../../../public/img/fondo6.png";
+import fondo from "../../../public/img/fondoNavidad.jpg";
 // import girar from "../../../public/img/redondo.png";
 
 function Header() {
@@ -137,6 +137,7 @@ function Header() {
 }
 
 export default Header;
+
 
 
 
