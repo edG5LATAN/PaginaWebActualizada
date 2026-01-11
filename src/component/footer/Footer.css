@@ -33,6 +33,10 @@
   background-color: rgb(255, 255, 255);
 }
 
+.footer_imagen:hover{
+  cursor: pointer;
+}
+
 .footer_redes {
   /* background-color: var(--color-oro); */
   width: 100%;

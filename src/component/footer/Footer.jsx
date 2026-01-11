@@ -38,8 +38,9 @@ function Footer() {
           whileHover={{ scale: 1.15 }}
           whileTap={{ scale: 0.8 }}
           className="footer_imagen"
-          src="./img/logoEd.webp"
-          alt=""
+          src="./img/footerGame/CircleGame.png"
+          alt="Game to Edtecnology.com"
+          onClick={() => window.open('https://edtecnology.itch.io/edtecnologygame', '_blank', 'noopener,noreferrer')}
         />
         <div className="footer_redes">
           <h2>redes sociales</h2>
