@@ -866,5 +866,18 @@ export const listaProductos = [
     "estado": "NUEVO",
     "tipo": "TELEFONIA",
     "oferta": "promocion"
-  }
+  },
+  {
+    "id": "51",
+    "imagen": "https://i.pinimg.com/736x/12/ff/10/12ff1066772dfe385159f4df60ccec7b.jpg",
+    "marca": "SPEAKER.",
+    "modelo": "KTS-1057",
+    "precio": "200",
+    "especificaciones": "Mini bocina portatil con entrada USB y salida de 3.5mm.",
+    "especificaciones2": "SPEAKER KTS-1057: Bocina compacta y portátil con conexión USB y auxiliar de 3.5mm. Ideal para música personal, llamadas manos libres y gran autonomía de batería.",
+    "estado": "NUEVO",
+    "tipo": "TELEFONIA",
+    "oferta": "promocion"
+}
 ]
+
