@@ -40,7 +40,7 @@ function Footer() {
           className="footer_imagen"
           src="./img/footerGame/CircleGame.png"
           alt="Game to Edtecnology.com"
-          onClick={() => window.open('https://edtecnology.itch.io/edtecnologygame', '_blank')}
+          onClick={() => window.open('https://pc-game-eta.vercel.app/', '_blank')}
         />
         <div className="footer_redes">
           <h2>redes sociales</h2>
@@ -255,4 +255,5 @@ function Footer() {
 }
 
 export default Footer;
+
 
