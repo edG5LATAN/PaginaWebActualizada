@@ -4,6 +4,7 @@ import ReactGA from "react-ga4";
 import { motion } from "motion/react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
+import AdSense from "../publicity/AdSense";
 
 function Footer() {
   const [formularioEnviado, setFormularioEnviado] = useState(false);
@@ -250,6 +251,7 @@ function Footer() {
         </div>
       </div>
       <p>creado por EDTecnology.com</p>
+      <AdSense adSlot="7759007144" />
     </div>
   );
 }

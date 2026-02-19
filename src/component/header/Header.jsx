@@ -6,6 +6,7 @@ import { listaPromos } from "../../services/listaTelefonia/ListaPromos";
 import { useNavigate } from "react-router-dom";
 import logo from "../../../public/img/logoEd.webp";
 import fondo from "../../../public/img/fondo3.png";
+import AdSense from "../publicity/AdSense";
 // import girar from "../../../public/img/redondo.png";
 
 function Header() {
@@ -28,6 +29,7 @@ function Header() {
 
   return (
     <div className="header" style={{ backgroundImage: `url(${fondo})` }}>
+      <AdSense adSlot="4333933300" />
       <div className="header_nav">
         <motion.img
           initial={{ opacity: 0, scale: 0 }}
