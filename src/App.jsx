@@ -10,7 +10,7 @@ import Tecnologia from "./component/tecnologia/Tecnologia";
 import Telefonia from "./component/telefonia/Telefonia";
 import AcercaDe from "./component/asercaDe/AcercaDe";
 import Privacidad from "./component/privacidad/Privacidad";
-import Error from "./component/error/Error";
+import NotFound from "./component/noFound/NotFound";
 
 // Componente para trackear cambios de ruta
 function TrackPageView() {
@@ -51,7 +51,7 @@ function App() {
           <Route path="/telefonia" element={<Telefonia />} />
           <Route path="/acerca" element={<AcercaDe />} />
           <Route path="/privacidad" element={<Privacidad />} />
-          <Route path="/*" element={<Error />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
