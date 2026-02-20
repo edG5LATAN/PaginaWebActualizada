@@ -10,10 +10,11 @@ function NotFound() {
       <div className='error_contenido'>
         <h2>ERROR 404 PAGINA NO ENCONTRADO</h2>
         <button onClick={()=>navegar("/")}>ir al inicio</button>
-        <img src="/img/logoED.webp" alt="logo error" />      
+        <img src="/img/logoEd.webp" alt="logo error" />      
       </div>
     </div>
   )
 }
 
 export default NotFound
+
