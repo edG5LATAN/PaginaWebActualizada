@@ -5,8 +5,10 @@ import { motion } from "motion/react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import emailjs from "@emailjs/browser";
 import AdSense from "../publicity/AdSense";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navegar=useNavigate();
   const [formularioEnviado, setFormularioEnviado] = useState(false);
   const [errorEnvio, setErrorEnvio] = useState(false);
 
@@ -250,6 +252,7 @@ function Footer() {
           </Formik>
         </div>
       </div>
+      <p className="footer_privacidad" onClick={()=>navegar("privacidad")}>politicas de privacidad</p>
       <p>creado por EDTecnology.com</p>
       <AdSense adSlot="7759007144" />
     </div>

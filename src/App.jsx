@@ -9,6 +9,7 @@ import Mostrar from "./component/mostrar/Mostrar";
 import Tecnologia from "./component/tecnologia/Tecnologia";
 import Telefonia from "./component/telefonia/Telefonia";
 import AcercaDe from "./component/asercaDe/AcercaDe";
+import Privacidad from "./component/privacidad/Privacidad";
 
 // Componente para trackear cambios de ruta
 function TrackPageView() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="/tecnologia" element={<Tecnologia />} />
           <Route path="/telefonia" element={<Telefonia />} />
           <Route path="/acerca" element={<AcercaDe />} />
+          <Route path="/privacidad" element={<Privacidad />} />
         </Routes>
         <Footer />
       </BrowserRouter>
