@@ -51,7 +51,7 @@ function App() {
           <Route path="/telefonia" element={<Telefonia />} />
           <Route path="/acerca" element={<AcercaDe />} />
           <Route path="/privacidad" element={<Privacidad />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
