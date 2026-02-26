@@ -252,13 +252,15 @@ function Footer() {
           </Formik>
         </div>
       </div>
+      <AdSense adSlot="7759007144" />
       <p className="footer_privacidad" onClick={()=>navegar("privacidad")}>politicas de privacidad</p>
       <p>creado por EDTecnology.com</p>
-      <AdSense adSlot="7759007144" />
+      
     </div>
   );
 }
 
 export default Footer;
+
 
 
