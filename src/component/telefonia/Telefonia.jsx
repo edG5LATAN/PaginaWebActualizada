@@ -9,6 +9,8 @@ import {
 } from "../../services/listaTelefonia/ListaPromos";
 import TecnologiaRepacion from "../tecnologiaReparaciones/TecnologiaReparacion";
 import TelefoniaCarrucel from "../telefoniaCarrucel/TelefoniaCarrucel";
+import AdSense from '../publicity/AdSense'
+
 
 function Telefonia() {
   return (
@@ -33,6 +35,7 @@ function Telefonia() {
       <br />
       <div className="telefonia_contenedorfallas">
         <h2>Reparaciones</h2>
+        <AdSense adSlot={"6715755306"} />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -57,6 +60,7 @@ function Telefonia() {
           return <TecnologiaRepacion key={index} info={res} />;
         })}
       </motion.div>
+      <AdSense adSlot={"5207378308"} />
 
       <br />
       <hr />

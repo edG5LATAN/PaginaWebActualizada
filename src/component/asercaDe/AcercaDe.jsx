@@ -3,6 +3,7 @@ import './AcercaDe.css'
 import Ubicacion from '../ubicacion/Ubicacion'
 import { motion } from 'motion/react'
 import Mision from '../mision/Mision'
+import AdSense from '../publicity/AdSense'
 
 
 
@@ -21,6 +22,7 @@ function AcercaDe() {
       >
         <Ubicacion />
       </motion.div>
+      <AdSense adSlot={"6336627140"} />
       <br />
       <hr />
       <br />

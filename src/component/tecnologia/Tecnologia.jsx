@@ -10,6 +10,10 @@ import {
 } from "../../services/listaTelefonia/ListaPromos";
 import TecnologiaReparacion from "../tecnologiaReparaciones/TecnologiaReparacion";
 import TecnologiaSlider from "../tecnologiaSlider/TecnologiaSlider";
+import Adsense from '../publicity/AdSense'
+import AdSense from "../publicity/AdSense";
+
+
 
 function Tecnologia() {
   return (
@@ -30,6 +34,7 @@ function Tecnologia() {
       >
         <DesarrolloWeb />
       </motion.div>
+      <Adsense adSlot={"2153693767"}/>
       <br />
       <hr className="container" />
       <br />
@@ -45,6 +50,7 @@ function Tecnologia() {
           return <TecnologiaPaginaPrecios key={index} info={info} />;
         })}
       </motion.div>
+      <AdSense adSlot={"3546666480"} />
       <br />
       <hr className="container" />
       <br />
@@ -62,6 +68,7 @@ function Tecnologia() {
       <br />
       <hr className="container" />
       <br />
+      <AdSense adSlot={"5566325167"} />
       <motion.div
         className="tecnologia_tecnologiaSlider"
         initial={{ opacity: 0, y: 20 }}
