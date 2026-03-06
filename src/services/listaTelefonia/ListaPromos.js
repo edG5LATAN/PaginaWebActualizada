@@ -85,7 +85,7 @@ export const listaTelefoniaReapaciones = [
     id: 0,
     imagen: unlockApple,
     titulo: "Liberacion de Iphone",
-    detalles: "Contamos con liberación de teléfono de la marca Apple por código remoto así te evitas dañar tu teléfono con software de terceros sin tener que abrir tu teléfono con la ventaja de poder usar cualquier operador de SEM.",
+    detalles: "Liberamos tu iPhone por código remoto de forma segura y sin abrirlo, evitando daños por software de terceros. Al utilizar un código oficial generado para tu equipo, el proceso es 100% confiable, rápido y reversible. Tu dispositivo quedará liberado de fábrica en pocos minutos, permitiéndote usar cualquier operador de SEM con total libertad. Olvídate de perder la garantía o arriesgar tu teléfono; además, conservarás todas las funciones originales como actualizaciones automáticas, Apple Pay y iCloud sin limitaciones. Todo esto desde la comodidad de tu hogar, sin traslados ni complicaciones. Disfruta la mejor cobertura con la compañía que prefieras y lleva tu iPhone a donde quieras sin restricciones. Contáctanos y libera tu equipo hoy mismo con la máxima seguridad y respaldo profesional.",
     boton: "cotiza la liberacion",
     mensaje: "Tengo un Iphone que deseo liberar me podrian dar mas informacion."
   },
@@ -93,7 +93,7 @@ export const listaTelefoniaReapaciones = [
     id: 1,
     imagen: mtopcsByTmobile,
     titulo: "Liberacion por codigo",
-    detalles: "Liberación directa de cualquier marca (Motorola, Huawei, LG, SAMSUNG, HTC …) para poder usar dentro y fuera del país sin ningún problema ingresa a información para darte más detalles de las liberaciones remotas.",
+    detalles: "¿Tienes un teléfono bloqueado? No importa la marca, nosotros lo liberamos. Trabajamos con Motorola, Huawei, LG, SAMSUNG, HTC y muchos más mediante código remoto y sin necesidad de abrir el equipo. Tu dispositivo quedará listo para usar con cualquier operador, tanto dentro como fuera del país, sin restricciones ni fallas de señal. Olvídate de los riesgos de software de terceros o procedimientos invasivos; nuestro método es 100% seguro, rápido y permanente. Una vez liberado, podrás viajar y cambiar de compañía cuando quieras, manteniendo todas las funciones originales de fábrica. Para más información, contáctanos y te damos todos los detalles sobre liberaciones remotas. Aprovecha esta solución fácil y confiable desde la comodidad de tu hogar, sin traslados ni largas esperas. Libera tu equipo hoy y úsalo libremente donde sea.",
     boton: "Precio de liberacion",
     mensaje: "Me mandaron un telefono de USA deseo saber el precio de su liberacion."
   },
@@ -101,7 +101,7 @@ export const listaTelefoniaReapaciones = [
     id: 2,
     imagen: marcas,
     titulo: "reparaciones varias",
-    detalles: "Contamos con asistencia tecnica para varias marcas de telefonia con sus repuestos originales, cambios de pantalla,flex de carga, microfono auriculares cambios de tapaderas housing actualizaciones de software.",
+    detalles: "Ofrecemos asistencia técnica especializada para múltiples marcas de telefonía, utilizando siempre repuestos originales en cada reparación. Realizamos cambios de pantalla, flex de carga, micrófono, auriculares y tapaderas o housing, devolviendo la apariencia y funcionalidad original a tu equipo. También trabajamos con actualizaciones de software para optimizar el rendimiento y corregir fallos del sistema. Todos nuestros procedimientos son cuidadosos y garantizados, evitando daños colaterales y alargando la vida útil de tu dispositivo. Confía en nosotros para mantener tu teléfono como nuevo, con piezas genuinas y técnicos capacitados. Contáctanos y recupera la experiencia completa de tu equipo sin riesgos.",
     boton: "pregunta por costo",
     mensaje: "Tengo un telefono que deseo reparar me podrian ayudar con su cotizacion"
   }
@@ -157,7 +157,7 @@ export const listaTecnologiaReparacion = [
     id: 0,
     imagen: tecActualizacion,
     titulo: "actualizacion de pc",
-    detalles: "Te ayudamos con la actualizaciones de equipo tanto para escritorio como para laptos con su sistema operativo como win 10 a win 11.. contamos con asistencia online para poder darte mejor servicion",
+    detalles: "Te ayudamos con la actualización de tu equipo, de escritorio o laptop, migrando de Windows 10 a Windows 11 de forma segura y sin pérdida de datos. Contamos con asistencia online personalizada para un servicio rápido y eficiente desde tu hogar. Nuestros técnicos guían o realizan el proceso remoto, verificando compatibilidad y optimizando el rendimiento. Olvídate de errores; disfruta las nuevas funciones y seguridad mejorada. Resolvemos dudas y ofrecemos soporte continuo. Aprovecha la tecnología reciente con acompañamiento profesional y actualiza tu PC sin riesgos. Contáctanos y renueva tu equipo con la mejor asistencia técnica online.",
     boton: "cotiza tu actualizacion",
     mensaje: "Quiero actualizar mi pc el windows y office y actualizarmi disco duro y memoria ram."
   },
@@ -165,7 +165,7 @@ export const listaTecnologiaReparacion = [
     id: 1,
     imagen: tecReparacion,
     titulo: "reparacion de computadoras",
-    detalles: "Reparacion y mantenimiento de computadoras de escritorio como portatil dandote el diagnostico y costo por reparacion como cambio de pantallas, baterias, teclado, antenas usb, antenas wifi.",
+    detalles: "Realizamos reparación y mantenimiento de computadoras de escritorio y portátiles, ofreciéndote un diagnóstico preciso y el costo por reparación antes de iniciar cualquier trabajo. Efectuamos cambios de pantallas, baterías, teclados, antenas USB y antenas WiFi, devolviendo la funcionalidad completa a tu equipo. Todos nuestros procedimientos son cuidadosos y utilizamos repuestos de calidad para garantizar resultados duraderos. Confía en nuestra experiencia para alargar la vida útil de tu computadora con soluciones rápidas y efectivas. Contáctanos y recupera el rendimiento de tu equipo sin sorpresas ni costos ocultos.",
     boton: "cotiza tu reparacion",
     mensaje: "Mi computadora tiene un problema deseo una cotizacion de reparacion."
   },
@@ -173,7 +173,7 @@ export const listaTecnologiaReparacion = [
     id: 2,
     imagen: tecAccesorios,
     titulo: "accesorios varios",
-    detalles: "contamos con accesorios para tu computadora que te ayudaran a facilitarte tu trabajo como luces led, mouse pad, teclados tambien como antenas para wifi y antenas bluthooth para audio e imagen.",
+    detalles: "Contamos con accesorios para tu computadora que te ayudarán a facilitar tu trabajo y mejorar tu experiencia diaria. Ofrecemos luces LED para una mejor iluminación de tu espacio, mouse pads ergonómicos y teclados de diferentes estilos para mayor comodidad al escribir. También disponemos de antenas para WiFi que optimizan la conexión a internet y antenas Bluetooth especializadas para transmisión de audio e imagen sin interferencias. Todos nuestros productos son seleccionados para brindarte rendimiento y durabilidad. Ya sea que trabajes desde casa, estudies o te diviertas, tenemos lo que necesitas para equipar tu estación. Mejora tu productividad con accesorios de calidad que marcan la diferencia. Visítanos y descubre cómo podemos ayudarte a sacar el máximo provecho a tu equipo con soluciones prácticas y funcionales.",
     boton: "pregunta por accesorios",
     mensaje: "Deseo cotizar para mi computadora un accesorio."
   }
